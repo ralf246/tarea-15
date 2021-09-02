@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ingelectric_contacto</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../estilos/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos\styles.css">
+    <meta name="description" content="Este es el sitio web de mi empresa de ingeniería eléctrica; encontraras todos los proyectos y servicios que ofrecemos">
+    <meta name="keywords"  content="SERVICIOS, MANTENIMIENTO ELECTRICO, PROYECTOS, ILUMINACIÓN,CONTACTANOS">
+</head>
+
+<body class="body">
+    <div class="contenido">
+        <header class="headerTop">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/LogoMakr-0hewu4.png" alt="logo"></a>
+            </div>
+            <div class="iconos">
+                <div><img src="../assets/Facebook.png" alt="facebook"></div>
+                <div><img src="../assets/Instagram.png" alt="instagram"></div>
+                <div><img src="../assets/linkedin.png" alt="linkend"></div>
+            </div>
+        </header>
+        <nav class="topNav">
+            <ul class=nav>
+                <li> <a href="../index.html"><b>Inicio</b></a></li>
+                <li> <a href="./sobre_nosotros.html"><b>Sobre nosotros</b></a></li>
+                <li> <a href="./proyectos.html"><b>Proyectos</b></a></li>
+                <li> <a href="./servicios.html"><b>Servicios</b></a>
+                    <ul>
+                        <li><a href="./servicios.html">Mantenimiento</a></li>
+                        <li><a href="./servicios.html">Proyectos</a></li>
+                        <li><a href="./servicios.html">Iluminación</a></li>
+                        <li><a href="./servicios.html">Tableros</a></li>
+                    </ul>
+                </li>
+                <li> <a href="./contacto.html"><b>Contacto</b></a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="contenedorTitulo">
+                <h1>Contactanos</h1>
+            </div>
+            <div class="ubicacion">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44807.098400373725!2d-70.70802534710782!3d-33.4152262652018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa067731aedbd02b4!2sMcDonald&#39;s!5e0!3m2!1ses!2scl!4v1626835771043!5m2!1ses!2scl"
+                    width="1025" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div><br>
+            <form action="" class="margen">
+                <!--datos del formulario-->
+                <section id="forma">
+                    <div class="inputGrup">
+                        <span class="span">
+                            <input type="text" name="Nombre_o_razon_social" value size="40" placeholder="Nombre">
+                        </span>
+                    </div>
+                    <div class="inputGrup">
+                        <span class="span">
+                            <input type="email" name="correo" placeholder="E-mail">
+                        </span>
+                    </div>
+                    <div class="inputGrup">
+                        <span class="span">
+                            <input type="text" name="Telefono" placeholder="Telefono">
+                        </span>
+                    </div>
+                </section>
+
+                <!--Contenedor de mensaje-->
+                <section class="mensaje">
+                    <div class="inputGrup">
+                        <span class="span">
+                            <textarea rows="4" cols="60" name="consulta" placeholder="Consulta"></textarea><br>
+                        </span>
+                    </div>
+
+                    <!--botones-->
+
+                    <div id="boton">
+                        <!--botones-->
+                        <input type="submit" value="Enviar ">
+                        <input type="reset" value="Limpiar ">
+                    </div>
+                </section>
+
+            </form>
+        </main>
+        <footer class="footer">
+            <div>
+                <p>©Copyright 2021 . Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
